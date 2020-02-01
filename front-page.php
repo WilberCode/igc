@@ -94,10 +94,12 @@
 </style>  
 <div class="subscribe">
         <div class="subscribe-wrap" > 
-                <div class="subscribe-content ed-grid  s-grid-1 m-grid-4 lg-grid-4 xl-grid-4  rows-gap  gap-2" > 
-                    <div class="" > 
+                <div class="subscribe-content ed-grid  s-grid-1 m-grid-1 lg-grid-4 xl-grid-4  rows-gap  gap-2" > 
+                    <div class="subscribe-content-email" > 
+                        <svg  ><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#email'; ?>"></svg>
+
                     </div>
-                    <div class="subscribe-content__form s-cols-1 l-cols-2 " >   
+                    <div class="subscribe-content__form s-cols-1 m-cols-1 l-cols-2 xl-cols-2 " >   
                         <h1>Suscríbete Aquí</h1>
                         <p>Para recibir novedades de cursos, información sobre diplomados, ofertas especiales y mucho más.</p>  
                         <?php   
@@ -109,9 +111,11 @@
                         }
                         ?>
                      </div>
-                    <div class=" " >    
-                     </div>
-                </div> 
+                    <div class="subscribe-content-circle" >  
+                        <svg xmlns="http://www.w3.org/2000/svg"   viewBox="0 0 214.127 221">
+                        <path id="Trazado_826" data-name="Trazado 826" d="M0,0H203a6,6,0,0,1,6,6V215a6,6,0,0,1-6,6H0S65,161,22,92,0,0,0,0Z" transform="translate(5.127)" fill="#344273"/>
+                        </svg>
+                     </div> 
         </div>
 </div>
 
