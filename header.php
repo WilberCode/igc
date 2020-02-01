@@ -77,9 +77,16 @@
                     <?php 
                     $custom_logo_id = get_theme_mod( 'custom_logo' );
                     $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );?>
+                     <?php if ( has_custom_logo() ) { ?> 
                     <a class="logo__url" href="<?php echo home_url();?>" rel="home">
                         <img id="logo__img" class="logo__img" src="<?php echo esc_url( $logo[0]);?>" alt="<?php bloginfo('name'); ?>" >
+                    </a> 
+                     <?php }else{?>
+                    <a class="logo__title" href="<?php echo home_url();?>" rel="home">
+                        <?php echo  '<h1 class="logo__title">'.get_bloginfo( "name" ).'</h1>'; ?>
                     </a>     
+                     <?php }?>
+
                 </div>
                 <div class="nav-container ed-item l-70 ">
                     <div class="header-banner" id="info-wrap"> 
