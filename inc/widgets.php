@@ -75,6 +75,13 @@
       'before_widget' => '<div class="frontpage-image">',
       'after_widget'  => '</div>' 
     ));  
+    register_sidebar(array(
+      'name' => __('Clientes en Home'),  
+      'id' =>'frontpage-clients',
+      'description'   => 'Lista de novedades',
+      'before_widget' => '<div class="client">',
+      'after_widget'  => '</div>' 
+    ));  
    
 }
 add_action('widgets_init', 'igc_front_widgets');

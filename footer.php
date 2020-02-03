@@ -1,14 +1,15 @@
 
-       <div class="clients">
-             <div class="ed-container"> 
-                <div class="ed-item"> 
-                    <h1>Nuestros Clientes</h1> 
-                        <?php 
-                            echo do_shortcode(' [logoshowcase  cat_id="20"  slides_column="5"]  ');
-                        ?>   
+            <!-- <div class="clients">
+                <div class="ed-container"> 
+                    <div class="ed-item"> 
+                        <h1>Nuestros Clientes</h1> 
+                            <?php 
+                               // echo do_shortcode(' [logoshowcase  cat_id="20"  slides_column="5"]  ');
+                            ?>   
                     </div>    
                 </div>  
-            </div>  
+            </div>   -->
+           
        </div> 
      </div>    
  
@@ -45,7 +46,7 @@ if(is_home()){?>
                     </a> 
                 <?php }?>
             </div>  
-            <?php  dynamic_sidebar('footer_contact');?> 
+            <?php  dynamic_sidebar('footer_contact');?>  
             <?php
             wp_nav_menu(array(
                 'theme_location'  => 'social-media',

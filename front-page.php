@@ -137,6 +137,16 @@
         </div>
     </div>
 </div> 
+<div class="client-container">
+        <div class="ed-container"> 
+            <div class="ed-item"> 
+                <h1>Nuestros Clientes</h1> 
+                <div class="client-wrap">
+                    <?php  dynamic_sidebar('frontpage-clients');?> 
+                </div> 
+            </div>     
+        </div>  
+</div>  
 <?php
 // printf('<div class="file">front-page.php</div>');
 get_footer();   
