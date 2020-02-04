@@ -2,10 +2,10 @@
          Template Post Type: post, page, event 
 */ ?>
  
-    <div class="page">
-        <div class="page-container">
+    <div class="page  ">
+        <div class="page-container  ">
             <?php the_content();?> 
-            <div class="congresses">  
+            <div class="congresses l-pb-3 xl-pb-3">  
                 <div class="ed-container">
                     <div class="ed-item p-m-rl-5">                        
                         <div class="card-container ed-grid  s-grid-1 m-grid-2 lg-grid-3 xl-grid-3  rows-gap  gap-2 "> 

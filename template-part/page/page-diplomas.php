@@ -5,7 +5,7 @@ Template Post Type: post, page, event
 */  ?>  
  
     <div class="page">
-        <div class="page-container">
+        <div class="page-container l-pb-3 xl-pb-3">
             <?php the_content();?>
             <!--<div class="page-banner" > 
                 <div class="ed-container">
