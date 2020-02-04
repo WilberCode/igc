@@ -28,7 +28,7 @@
 <?php $file = './style.scss';?>  
 <?php get_template_part("/template-part/post/content-tabs"); ?> 
 
-<div  class="  ed-grid m-grid-1 m-grid-3 l-grid-4 gap-2" >
+<div  class="  ed-grid m-grid-1 m-grid-3 l-grid-4 gap-2  l-mb-4" >
     <div class=" m-cols-1 m-cols-2 l-cols-3 ">
     <?php
        get_template_part("content"); ?>
@@ -62,7 +62,7 @@
             background: linear-gradient(rgba(55, 66, 115, 0.92),rgba(55, 66, 115, 0.96)),url(<?php  echo get_theme_mod('request_image'); ?> ) center 40%/cover no-repeat;
         }
 </style>
- <div class="request">  
+ <div class="request   ">  
      <div class="ed-container full">
         <div class="ed-item s-100 m-40 l-55 xl-55 ">
             <div class="request-content">
@@ -98,8 +98,8 @@
         background: linear-gradient(rgba(40, 46, 107, 0.92), rgba(40, 46, 107, 0.92)), url(<?php  echo get_theme_mod('newsletter_image'); ?>) center 40%/cover no-repeat;
     }
 </style>  
-<div class="subscribe">
-        <div class="subscribe-wrap" > 
+<div class="subscribe  4">
+        <div class="subscribe-wrap " > 
                 <div class="subscribe-content ed-grid  s-grid-1 m-grid-1 lg-grid-4 xl-grid-4  rows-gap  gap-2" > 
                     <div class="subscribe-content-email" > 
                         <svg  ><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#email'; ?>"></svg>
@@ -125,8 +125,8 @@
         </div>
 </div>
 
-<div class="ed-container">
-    <div class="ed-item l-100">
+<div class="ed-container l-mb-4 xl-mb-4">
+    <div class="ed-item l-100 l-mb-4 ">
         <div class="gallery">
             <h1>Galleria de IGC</h1>
             <h3>Actividades Desarrolladas</h3>
@@ -143,7 +143,7 @@
         </div>
     </div>
 </div> 
-<div class="client-container">
+<div class="client-container xl-mt-4">
         <div class="ed-container"> 
             <div class="ed-item"> 
                 <h1>Nuestros Clientes</h1> 
