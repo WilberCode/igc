@@ -55,12 +55,18 @@
     </div>
 </div> 
  
- <div class="request"> 
-     
-     <div class="ed-container">
-        <div class="ed-item s-100 m-40 l-55 xl-55">
+<style>
+        .request::before{
+            content: '';
+            position: absolute; 
+            background: linear-gradient(rgba(55, 66, 115, 0.92),rgba(55, 66, 115, 0.96)),url(<?php  echo get_theme_mod('request_image'); ?> ) center 40%/cover no-repeat;
+        }
+</style>
+ <div class="request">  
+     <div class="ed-container full">
+        <div class="ed-item s-100 m-40 l-55 xl-55 ">
             <div class="request-content">
-                <h2 class="fw-normal">Capacítate en los Programas más requeridos en la Gestión Pública</h2>
+                <h2 class="fw-normal">Capacítate en los Programas más requeridos en la <span>Gestión Pública</span></h2>
                 <div class="request-content__offer">
                     <h3 class="fw-normal ml-8  ">Te Ofrecemos</h3>
                     <ul>
@@ -72,9 +78,9 @@
                 <img src="<?php echo get_bloginfo('template_directory').'/assets/img/programas.png'; ?>" alt="Programas">
             </div>
         </div>
-        <div class="ed-item s-100 m-60 l-45  xl-45"> 
+        <div class="ed-item s-100 m-60 l-45  xl-45 l-cross-center"> 
             <div class="request-form">
-                <h2 class="fw-bold mw-small m-center">Complete los campos y solicita el curso que deseas llevar</h2>
+                <h2 class="fw-bold mw-small m-center">Complete los campos <br> y solicita el curso que deseas llevar</h2>
               <?php   
 
                 if (file_exists(dirname(__FILE__) . $file)) {  

@@ -55,6 +55,17 @@ function wpb_customize_register($wp_customize){
         'setting' => 'cursos_image',
         'priority' => 1
     ))); 
+    // Imagen de formulario de curso en Front Page
+    $wp_customize -> add_setting('request_image', array(
+        'default' => get_bloginfo('template_directory').'/assets/img/banner.jpg',
+        'type'    => 'theme_mod'
+    ));
+    $wp_customize -> add_control(new WP_Customize_Image_Control($wp_customize,'request_image',array(
+        'label'   => __('Imagen de Formulario solicitud', 'wpfrontpage'),
+        'section' => 'frontpage',
+        'setting' => 'request_image',
+        'priority' => 1
+    ))); 
 
     
     }
