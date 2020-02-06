@@ -95,7 +95,7 @@
                               //  dynamic_sidebar('header-image');
                             ?>
                         </div>  -->
-                        <div  class="partner s-shadow ed-grid s-grid-1  lg-grid-3 gap-1">
+                        <div  class="partner ed-grid s-grid-1  lg-grid-3 gap-1">
                             <div class="partner-title  s-cols-1  m-cols-1 lg-cols-1 s-mb-4 m-mb-4 l-mb-0" >
                                 <div>
                                     <p>Convenios Internacionales</p>
