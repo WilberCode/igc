@@ -90,11 +90,24 @@
                 </div>
                 <div class="nav-container ed-item l-70 ">
                     <div class="header-banner" id="info-wrap"> 
-                        <div class="header-banner__wrap "> 
+                        <!-- <div class="header-banner__wrap "> 
                             <?php  
-                                dynamic_sidebar('header-image');
+                              //  dynamic_sidebar('header-image');
                             ?>
-                        </div> 
+                        </div>  -->
+                        <div  class="partner s-shadow ed-grid s-grid-1  lg-grid-3 gap-1">
+                            <div class="partner-title  s-cols-1  m-cols-1 lg-cols-1 s-mb-4 m-mb-4 l-mb-0" >
+                                <div>
+                                    <p>Convenios Internacionales</p>
+                                    <span>2005 - 2019 - 2021</span>
+                                </div>
+                            </div>
+                            <div class="partner-image-wrap  s-cols-2   m-cols-2 lg-cols-2 s-main-center s-main-start ">
+                                <?php       
+                            dynamic_sidebar('partner-imagen'); 
+                                ?> 
+                            </div>
+                        </div>
                     </div>  
                     <div class="nav-first-wrap">
                         <div class="nav-first" id="nav-first">

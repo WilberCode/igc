@@ -1,29 +1,10 @@
 <?php get_header();?>
-    <div class="banner" id="banner">
+<div class="banner" id="banner">
     <?php  
     echo do_shortcode('[smartslider3 slider=4]');  
-    ?>	  
-
-    
-    </div> 
-<!-- <div  class="partner s-shadow ed-grid s-grid-1  lg-grid-4">
-    <div class="partner-title  s-cols-1  m-cols-1 lg-cols-1 s-mb-4 m-mb-4 l-mb-0" >
-        <div>
-            <p>Convenio con</p>
-            <span>2019 - 2021</span>
-        </div>
-    </div>
-    <div class="partner-image-wrap  s-cols-1   m-cols-3 lg-cols-3 s-main-center s-main-start ">
-        <?php       
-        //  dynamic_sidebar('partner-imagen'); 
-        ?> 
-    </div>
-</div> -->
-<!-- <div  class="partners" > 
-        <?php 
-       // echo do_shortcode('[smartslider3 slider=6]');
-        ?>    
-</div>  -->
+    ?>	   
+</div> 
+ 
 <div class=" s-pt-4 l-pt-4 xl-pt-4" ></div>
 <?php $file = './style.scss';?>  
 <?php get_template_part("/template-part/post/content-tabs"); ?> 
