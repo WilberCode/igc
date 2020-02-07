@@ -109,9 +109,8 @@
 <div class="ed-container l-mb-4 xl-mb-4">
     <div class="ed-item l-100 l-mb-4 ">
         <div class="gallery">
-            <h1>Galleria de IGC</h1>
-            <h3>Actividades Desarrolladas</h3>
-            <div class="gallery-list"> 
+            <h1 class=" " >Congresos, Cursos, Diplomados y Talleres Desarrolladas</h1> 
+            <div class="gallery-list  "> 
                 <?php
                 
                 if (file_exists(dirname(__FILE__) . $file)) {  
