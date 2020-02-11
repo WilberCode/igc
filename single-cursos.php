@@ -40,7 +40,7 @@ get_header();?>
 					<div class="single-banner__section ">
 						<div class="single-banner__svg-wrap s-cross-center s-main-center s-to-center">
 							<svg >
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#day';?>">
+								<use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#day';?>">
 							</svg>
 						</div>
 						<p >
