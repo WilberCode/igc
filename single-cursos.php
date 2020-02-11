@@ -44,7 +44,7 @@ get_header();?>
 							</svg>
 						</div>
 						<p >
-							<strong>DÍAS</strong>: <?php the_field( 'curso_dias' ); ?> 
+							<strong>DÍAS</strong>: <?php the_field( 'curso_dias' ); ?>   
 						</p>
 					</div> 
 					<div class="single-banner__section ">
