@@ -2,30 +2,25 @@
 get_header();?>
 <div class="single-banner">
 	<div class="ed-container"> 
-		<div class="ed-item s-100 m-60 lg-70	">
-			<div class="single-banner__wrap ">
-				<figure class="single-banner__figure">
-					<?php $curso_image = get_field( 'curso_imagen' ); ?>
-					<?php if ( $curso_image ) { ?>
-					<img src="<?php echo $curso_image['url']; ?>" alt="<?php echo $curso_image['alt']; ?>"
-					/>
-					<?php } ?>
-				</figure>
-				<h1 class="single-banner__title">
-					<?php the_field( 'curso_titulo' ); ?>
-					
-				</h1>
-				
-			</div> 
+		<div class="ed-item s-100 m-60 lg-65 s-center m-left"> 
+			<div class="single-banner-category" >
+				<div> <svg >
+								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#courses'; ?>">
+				 </svg></div>		
+				 <h3>Curso</h3>
+			</div>
+			<h1 class="single-banner__title">
+				<?php the_field( 'curso_titulo' ); ?> 
+			</h1>
 			<div class="single-banner__info  ">
-				<p class="single-banner__mode ">
+				<!-- <p class="single-banner__mode ">
 					<i class="fas fa-map-marker-alt"></i> Curso presencial 
-				</p>
-				<div class="ed-grid s-grid-1  lg-grid-2 rows-gap cols-gap-none ">
-					<div class="single-banner__section  ">
+				</p> --> 
+				<div class="ed-grid s-grid-1  lg-grid-2 xl-grid-2 gap-0    ">
+					<div class="single-banner__section ">
 						<div class="single-banner__svg-wrap s-cross-center s-main-center s-to-center">
 							<svg class=" ">
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#date'; ?>">
+								<use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#calendar'; ?>">
 							</svg>
 						</div>
 						<p>
@@ -35,7 +30,7 @@ get_header();?>
 					<div class="single-banner__section ">
 						<div class="single-banner__svg-wrap s-cross-center s-main-center s-to-center">
 							<svg class="svg__hour">
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>">
+								<use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#certificado'; ?>">
 							</svg>
 						</div>
 						<p>
@@ -56,55 +51,40 @@ get_header();?>
 
 						<div class="single-banner__svg-wrap s-cross-center s-main-center s-to-center">
 							<svg class="svg__hours">
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#hour'; ?>">
+								<use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#clock'; ?>">
 							</svg>
 						</div>
 						<p>
 							<strong>HORARIOS</strong>: <?php the_field( 'curso_hora_inicio' ); ?>
 						</p>
-					</div>
-					<div class="single-banner__section ">
-						<div class="single-banner__svg-wrap s-cross-center s-main-center s-to-center">
-						<!--	<i class="fal fa-wallet"></i>-->
-							<svg class="">
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#wallet'; ?>">
-							
-							</svg>
-						</div>
-						<p>
-							<strong>INVERSIÓN</strong>: 	<span> <?php the_field( 'curso_precio' ); ?> </span>
-						</p>
-					</div>
+					</div> 
 				</div>
-				<div class="ed-grid s-1-3">
-					<a class="btn-brochure  " target="_blank" href="<?php the_field( 'curso_brochure_url' ); ?>">
+				<!-- <div class="ed-grid s-1-3">
+					<a class="btn-brochure  " target="_blank" href="<?php // the_field( 'curso_brochure_url' ); ?>">
 						<i class="far fa-file-pdf"></i>Descargar temario PDF</a>
-				</div>
+				</div> -->
 			</div>
 		</div>
-		<div class="single-banner__contact ed-item s-100 m-40 lg-30"> 
-			<div class="course-form">
-				<h1>Solicitar más información.</h1>
-				<p>Para cualquier consulta y mayor información solo  completa tus datos y nos pondremos en contacto.</p> 
-	 
-			    	<?php  
-							$file = './style.scss'; 
-							if (file_exists(dirname(__FILE__) . $file)) {   
-							//echo do_shortcode('[wpforms id="2123" title="false" description="false"]');  
-							echo do_shortcode('[everest_form id="2840"]');  
-									}else{ 
-							echo  do_shortcode('[everest_form id="2358"]');  
-							}
-							?> 
+		<div class="ed-item s-100 m-40 lg-35  s-pt-4  l-pt-0"> 
+			<div  class="single-banner-card   " >
+				<figure class="single-banner-card__image">
+					<?php $curso_image = get_field( 'curso_imagen' ); ?>
+					<?php if ( $curso_image ) { ?>
+					<img src="<?php echo $curso_image['url']; ?>" alt="<?php echo $curso_image['alt']; ?>"
+					/>
+					<?php } ?>
+				</figure> 
+				<h3 class="single-banner-card__precio s-center l-center xl-center">
+							<strong>INVERSIÓN</strong>: 	<span> <?php the_field( 'curso_precio' ); ?> </span>
+				 </h3>
 			</div> 
-			
-		</div>
+		</div> 
 	</div>
 </div>
 
-<div class="single-content bg-second-medium">
+<div class="single-content bg-first">
 	<div class="ed-container">
-		<div class="ed-item s-100 m-100 lg-70 margin-r-l-0">
+		<div class="ed-item s-100 m-100 lg-65 margin-r-l-0">
 			<ul class="tabs ed-container">
 				<li class="tab ed-item s-20 m-20 l-20"> <a class="active" href="#curso">Presentación</a> </li>
 				<li class="tab ed-item s-20 m-20 l-20"> <a href="#temario">Temario</a> </li>
@@ -309,10 +289,27 @@ get_header();?>
 			</div>
 
 		</div>
-		<div class="ed-item s-100 100-30 lg-30">
-			<div class="single-sidebar">
+		<div class="ed-item s-100 100-30 lg-35">
+		<div class="single-sidebar">
+				<div class="sidebar-info ">
+					<h1 class="sidebar-info__title bg-first"> Informes y Inscripciones </h1>
+					<div class="sidebar-form ">
+					<h1>Registrase al curso</h1>
+					<p> Despues de su registro nos pondremos en contacto a la brevdad posible para más información.</p>  
+					<?php  
+								$file = './style.scss'; 
+								if (file_exists(dirname(__FILE__) . $file)) {   
+								//echo do_shortcode('[wpforms id="2123" title="false" description="false"]');  
+								echo do_shortcode('[everest_form id="2840"]');  
+										}else{ 
+								echo  do_shortcode('[everest_form id="2358"]');  
+								}
+								?> 
+				</div>   
+			</div>
+			<div class="single-sidebar l-pt-4">
 				<div class="sidebar-info">
-					<h1 class="sidebar-info__title bg-second-medium"> Informes y Inscripciones </h1>
+					<h1 class="sidebar-info__title bg-first"> Contactenos </h1>   
 					<div class="sidebar-info__body">
 						<?php
 							wp_nav_menu(array(
@@ -343,7 +340,7 @@ get_header();?>
 		</div> 
 	</div>
 </div>
-	<div class="single-gift">
+	<!-- <div class="single-gift">
 	    <div  class="ed-container p-r" >
 	   		<div  class="ed-item" > 
 				<h1 class="single-gift__title">TE OFRECEMOS</h1>
@@ -351,26 +348,26 @@ get_header();?>
 					<div class="single-gift__content">
 						<h2 class="single-gift__name">DVD</h2>
 						<div class="single-gift__body">
-							<img src="<?php echo get_bloginfo('template_directory').'/assets/img/dvd.png'; ?>" alt="">
+							<img src="<?php /// echo get_bloginfo('template_directory').'/assets/img/dvd.png'; ?>" alt="">
 						</div>
 					</div>
 					<div class="single-gift__content">
 						<h2 class="single-gift__name">Separatas</h2>
 						<div class="single-gift__body">
-							<img src="<?php echo get_bloginfo('template_directory').'/assets/img/separatas.png'; ?>">
+							<img src="<?php // echo get_bloginfo('template_directory').'/assets/img/separatas.png'; ?>">
 						</div>
 					</div>
 					<div class="single-gift__content">
 						<h2 class="single-gift__name">Material de lectura</h2>
 						<div class="single-gift__body">
-							<img src="<?php echo get_bloginfo('template_directory').'/assets/img/cuaderno.png'; ?>" alt="">
+							<img src="<?php // echo get_bloginfo('template_directory').'/assets/img/cuaderno.png'; ?>" alt="">
 						</div>
 					</div>
 					<div class="single-gift__content">
 						<h2 class="single-gift__name">Certificado</h2>
 						<div class="single-gift__body">
 							<svg class="svg__diploma s-cross-center s-main-center s-to-center" >
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>">
+								<use href="<?php // echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>">
 							</svg>
 						</div>
 					</div>
@@ -378,14 +375,14 @@ get_header();?>
 						<h2 class="single-gift__name">Coffe Break</h2>
 						<div class="single-gift__body s-cross-center s-main-center s-to-center">
 							<svg class="svg__coffe">
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#coffe'; ?>">
+								<use href="<?php // echo get_bloginfo('template_directory').'/assets/img/icons.svg#coffe'; ?>">
 							</svg>
 						</div>
 					</div> 
 				</div>
 			</div>
  		</div> 
-	</div>
+	</div> -->
 	<div class="single-comments">  
 	<br>
 		<div class="ed-container">

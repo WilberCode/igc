@@ -34,11 +34,11 @@
                                             </h1>   
                                             <div class="card-info__body"> 
                                                 <p class="card-info__icon">   
-                                                    <svg class="svg__date"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#date'; ?>"></svg>
+                                                    <svg class="svg__date"><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#calendar'; ?>"></svg>
                                                   <b>INICIO: </b>  <?php the_field( 'curso_fecha_inicio' ); ?> 
                                                 </p>
                                                 <p class="card-info__icon">  
-                                                    <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>"></svg> 
+                                                    <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#certificado'; ?>"></svg> 
                                 <b>CERTIFICACIÓN: </b> <?php the_field( 'curso_horas_academicas' );?>  
                                                 </p>
                                                 <div class="card-info-certifies">

@@ -24,7 +24,7 @@
 
                                         <div class="card-info"> 
                                             <p class="card-info__icon  card-info__icon-subject ">  
-                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>"></svg> 
+                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diploma'; ?>"></svg> 
                                                 Congreso
                                             </p>
                                         <h1 class="card-info__title"> 
@@ -32,7 +32,7 @@
                                         </h1>   
                                         <div class="card-info__body"> 
                                             <p class="card-info__icon">   
-                                                <svg class="svg__date"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#date'; ?>"></svg>
+                                                <svg class="svg__date"><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#calendar'; ?>"></svg>
                                                 <b>INICIO: </b>  <?php the_field( 'congreso_fecha' ); ?> 
                                             </p>
                                             <p class="card-info__icon">  
