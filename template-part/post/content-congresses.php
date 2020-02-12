@@ -24,7 +24,7 @@
 
                                         <div class="card-info"> 
                                             <p class="card-info__icon  card-info__icon-subject ">  
-                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#diploma'; ?>"></svg> 
+                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#congresses'; ?>"></svg> 
                                                 Congreso
                                             </p>
                                         <h1 class="card-info__title"> 
