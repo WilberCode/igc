@@ -14,7 +14,7 @@
     <?php
        get_template_part("content"); ?>
     </div>
-    <div class=" m-cols-1 m-cols-1 l-cols-1"> 
+    <div class=" m-cols-1 m-cols-1 l-cols-1 frontpage-sidebar "> 
         <div class="frontpage-form ">
             <div class="frontpage-form-header">
                 <h2> Solicita un curso que deseas tomar</h2>
