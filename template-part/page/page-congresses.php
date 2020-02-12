@@ -43,7 +43,7 @@
                                                 <b>INICIO: </b>  <?php the_field( 'congreso_fecha' ); ?> 
                                             </p>
                                             <p class="card-info__icon">  
-                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#day'; ?>"></svg> 
+                                                <svg class="svg__hours"><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#clock'; ?>"></svg> 
                             <b>HORA: </b> <?php the_field('congreso_hora');?>  
                                             </p>
                                             <div class="card-info-certifies">
