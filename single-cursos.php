@@ -45,7 +45,7 @@ get_header();?>
 						</div>
 						<p >
 							<strong>DÍAS</strong>: <?php the_field( 'curso_dias' ); ?>   
-						</p>
+						</p>	
 					</div> 
 					<div class="single-banner__section ">
 
