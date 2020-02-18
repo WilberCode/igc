@@ -83,8 +83,7 @@
         <div class="subscribe-wrap " > 
                 <div class="subscribe-content ed-grid  s-grid-1 m-grid-1 lg-grid-4 xl-grid-4  rows-gap  gap-2" > 
                     <div class="subscribe-content-email" > 
-                        <svg  ><use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#email'; ?>"></svg>
-
+                        <svg ><use href="<?php echo get_bloginfo('template_directory').'/assets/svg/icons.svg#email'; ?>"></svg>
                     </div>
                     <div class="subscribe-content__form s-cols-1 m-cols-1 l-cols-2 xl-cols-2 " >   
                         <h1>Suscríbete Aquí</h1>
