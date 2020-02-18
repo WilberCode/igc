@@ -10,7 +10,8 @@ get_header();?>
 				 <h3>Curso</h3>
 			</div>
 			<h1 class="single-banner__title">
-				<?php the_field( 'curso_titulo' ); ?> 
+				<?php the_field( 'curso_titulo' );?> <a class="btn-brochure" target="_blank" href="<?php  the_field( 'curso_brochure_url' ); ?>">
+						<i class="far fa-file-pdf"></i>Descargar Temario</a> 
 			</h1>
 			<div class="single-banner__info  ">
 				<!-- <p class="single-banner__mode ">
@@ -59,10 +60,7 @@ get_header();?>
 						</p>
 					</div> 
 				</div>
-				<!-- <div class="ed-grid s-1-3">
-					<a class="btn-brochure  " target="_blank" href="<?php // the_field( 'curso_brochure_url' ); ?>">
-						<i class="far fa-file-pdf"></i>Descargar temario PDF</a>
-				</div> -->
+			
 			</div>
 		</div>
 		<div class="ed-item s-100 m-40 lg-35  s-pt-4  l-pt-0"> 
