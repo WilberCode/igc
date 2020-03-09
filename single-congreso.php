@@ -104,7 +104,7 @@ get_header();?>
 		<div class="ed-container">
 			<div class="ed-item s-100 m-100 l-70 margin-r-l-0"> 
 				<div class="tabs-info">
-					<div id="programa" class="program tabs-info__show bg-first-medium">
+					<div id="programa" class="program tabs-info__show bg-first">
 						<h1  class="tabs-info__show-title"> Programa a Desarrollar </h1>
 						<div class="tabs-info__show-body single-showtabs__body">
 							<?php the_field( 'congreso_programa_desarrollar' ); ?> 
@@ -130,7 +130,7 @@ get_header();?>
 					</div>
 					<div id="conferencistas" class="speakers tabs-info__show">
 						<h1  class="tabs-info__show-title" > Conferencistas Magistrales </h1>
-						<div class="tabs-info__show-body bg-first-medium "> 
+						<div class="tabs-info__show-body bg-first "> 
 						<?php 
 							if( have_rows('congreso_conferencistas')):  
 									while ( have_rows('congreso_conferencistas') ) : the_row();  
@@ -384,7 +384,7 @@ get_header();?>
 			<div class="ed-item s-100 m-100 l-30 margin-r-l-0 p-r-l-05 ">
 				<div class="single-congress__wallets">
 					<div class="single-sidebar">
-						<div class="sidebar-info">
+						<div class="sidebar-info  " style="background:white" >
 							<?php if( get_field('tipo_congreso') == 'secretaria' ){ ?>
 								<h1 class="sidebar-info__title  s-center m-center lg-center"> Alternaltivas de Carteras </h1>
 								<div class="sidebar-info__body">
@@ -433,24 +433,24 @@ get_header();?>
 
 <div class="single-congress__contact">
 	<div class="ed-container">
-		<div class="ed-item s-100 m-100  l-50">
+		<!-- <div class="ed-item s-100 m-100  l-50">
 			<div class="single-congress__contact-form">
 				<h1 class="s-center m-left lg-left" >Solicitar Más Información</h1>
 				<?php  
-					$file = './style.scss'; 
-					if (file_exists(dirname(__FILE__) . $file)) {   
-						echo do_shortcode('[everest_form id="2841"]');  
-					}else{ 
-						echo do_shortcode('[everest_form id="2359"]'); 
-					}
+					// $file = './style.scss'; 
+					// if (file_exists(dirname(__FILE__) . $file)) {   
+					// 	echo do_shortcode('[everest_form id="2841"]');  
+					// }else{ 
+					// 	echo do_shortcode('[everest_form id="2359"]'); 
+					// }
 					?> 
 			</div>
-		</div>
-		<div class="ed-item s-100 m-100 l-50 ">
+		</div> -->
+		<div class="ed-item s-100 m-100 l-100 ">
 			<div class="single-congress__info">
 				<div class="single-sidebar">
 					<div class="sidebar-info">
-						<h1 class="s-center m-left lg-left" > Informes y Inscripciones </h1>
+						<h1 class="s-center m-left lg-left " style="color:#000" > Informes y Inscripciones </h1>
 						<div class="sidebar-info__body">
 							<?php
 								wp_nav_menu(array(
