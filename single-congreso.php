@@ -449,7 +449,7 @@ get_header();?>
 		<div class="ed-item s-100 m-100 l-100 ">
 			<div class="single-congress__info">
 				<div class="single-sidebar">
-					<div class="sidebar-info">
+					<div class="sidebar-info" style="border-radius:6px; padding:1em;" >
 						<h1 class="s-center m-left lg-left " style="color:#000" > Informes y Inscripciones </h1>
 						<div class="sidebar-info__body">
 							<?php
