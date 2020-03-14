@@ -10,7 +10,7 @@
 <?php get_template_part("/template-part/post/content-tabs"); ?> 
 
 <div  class="  ed-grid m-grid-1 m-grid-3 l-grid-4 gap-2  l-mb-4" >
-    <div class=" m-cols-1 m-cols-2 l-cols-3 ">
+    <div class=" m-cols-1 m-cols-2 l-cols-3 l-pr-1 ">
     <?php
        get_template_part("content"); ?>
     </div>
