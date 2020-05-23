@@ -1,8 +1,9 @@
 <?php get_header();?>
 <div class="banner" id="banner">
     <?php  
-    echo do_shortcode('[smartslider3 slider=4]');  
-    ?>	   
+    // echo do_shortcode('[smartslider3 slider=4]');  
+        echo do_shortcode('[metaslider id="3376"]');
+    ?>	    
 </div> 
  
 <div class=" s-pt-4 l-pt-4 xl-pt-4" ></div>
@@ -19,7 +20,7 @@
             <div class="frontpage-form-header">
                 <h2> Solicita un curso que deseas tomar</h2>
             </div>
-            <div class="frontpage-form-body">
+            <div class="frontpage-form-body"> 
              <?php   
 
                 if (file_exists(dirname(__FILE__) . $file)) {  
