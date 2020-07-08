@@ -235,7 +235,7 @@ get_header();?>
 										<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="">	
 									</figure>
 									<div class="adviser-content l-cols-2">
-										<p class="adviser-content__name"><strong>Evelyn Zapana Rios</strong></p>
+										<p class="adviser-content__name"><strong>Yuni Figuera</strong></p>
 										<p class="adviser-content__job">Coordinadora de capacitación</p>
 										<a  class="adviser-content__btn" href="https://api.whatsapp.com/send?phone=945504555" target="_blank">
 										<svg> <use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#whatsapp';?> " ></svg>
@@ -338,49 +338,7 @@ get_header();?>
 		</div> 
 	</div>
 </div>
-	<!-- <div class="single-gift">
-	    <div  class="ed-container p-r" >
-	   		<div  class="ed-item" > 
-				<h1 class="single-gift__title">TE OFRECEMOS</h1>
-				<div class="single-gift__wrap ed-grid s-grid-2  m-grid-3  lg-grid-5">
-					<div class="single-gift__content">
-						<h2 class="single-gift__name">DVD</h2>
-						<div class="single-gift__body">
-							<img src="<?php /// echo get_bloginfo('template_directory').'/assets/img/dvd.png'; ?>" alt="">
-						</div>
-					</div>
-					<div class="single-gift__content">
-						<h2 class="single-gift__name">Separatas</h2>
-						<div class="single-gift__body">
-							<img src="<?php // echo get_bloginfo('template_directory').'/assets/img/separatas.png'; ?>">
-						</div>
-					</div>
-					<div class="single-gift__content">
-						<h2 class="single-gift__name">Material de lectura</h2>
-						<div class="single-gift__body">
-							<img src="<?php // echo get_bloginfo('template_directory').'/assets/img/cuaderno.png'; ?>" alt="">
-						</div>
-					</div>
-					<div class="single-gift__content">
-						<h2 class="single-gift__name">Certificado</h2>
-						<div class="single-gift__body">
-							<svg class="svg__diploma s-cross-center s-main-center s-to-center" >
-								<use href="<?php // echo get_bloginfo('template_directory').'/assets/img/icons.svg#diplomas'; ?>">
-							</svg>
-						</div>
-					</div>
-					<div class="single-gift__content">
-						<h2 class="single-gift__name">Coffe Break</h2>
-						<div class="single-gift__body s-cross-center s-main-center s-to-center">
-							<svg class="svg__coffe">
-								<use href="<?php // echo get_bloginfo('template_directory').'/assets/img/icons.svg#coffe'; ?>">
-							</svg>
-						</div>
-					</div> 
-				</div>
-			</div>
- 		</div> 
-	</div> -->
+ 
 	<div class="single-comments">  
 	<br>
 		<div class="ed-container">
