@@ -232,7 +232,7 @@ get_header();?>
 						</div>
 						<div class="adviser single-investment__user ed-grid l-grid-4 gap-0 ">
 									<figure class="adviser-avatar l-cols-1">
-										<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="">	
+										<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="Asesora">	
 									</figure>
 									<div class="adviser-content l-cols-2">
 										<p class="adviser-content__name"><strong>Yuni Figuera</strong></p>
