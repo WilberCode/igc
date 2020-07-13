@@ -5,7 +5,7 @@ get_header();?>
 		<div class="ed-item s-100 m-60 lg-65 s-center m-left"> 
 			<div class="single-banner-category" >
 				<div> <svg >
-								<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#courses'; ?>">
+					<use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#courses'; ?>">
 				 </svg></div>		
 				 <h3>Curso</h3>
 			</div>
@@ -237,7 +237,7 @@ get_header();?>
 									<div class="adviser-content l-cols-2">
 										<p class="adviser-content__name"><strong>Yuni Figuera</strong></p>
 										<p class="adviser-content__job">Coordinadora de capacitación</p>
-										<a  class="adviser-content__btn" href="https://api.whatsapp.com/send?phone=945504555" target="_blank">
+										<a  class="adviser-content__btn" href="https://web.whatsapp.com/send?phone=+51945504555" target="_blank">
 										<svg> <use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#whatsapp';?> " ></svg>
 										<p class="adviser-content__btn-number">995504555</p>
 										<p class="adviser-content__btn-text" >Click para conversar con una Asesora</p>
@@ -329,7 +329,7 @@ get_header();?>
 								</svg>
 								<p>945504555</p>
 							</div>
-							<a class="sidebar-info__btn" href="https://api.whatsapp.com/send?phone=945504555" target="_blank">Enviar Mensaje</a>
+							<a class="sidebar-info__btn" href="https://web.whatsapp.com/send?phone=+51945504555" target="_blank">Enviar Mensaje</a>
 							
 						</div>
 					</div>
