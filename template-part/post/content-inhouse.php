@@ -13,10 +13,10 @@
 	</div>
 	<div class="adviser ed-grid l-grid-4 gap-0 s-pt-4 l-pt-4 ">
 				<figure class="adviser-avatar l-cols-1">
-					<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="">	
+					<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="asesora">	
 				</figure>
 				<div class="adviser-content l-cols-3">
-					<p class="adviser-content__name"><strong>Evelyn Zapana Rios</strong></p>
+					<p class="adviser-content__name"><strong>Yuni Figuera</strong></p>
 					<p class="adviser-content__job">Coordinadora de capacitación</p>
 					<a  class="adviser-content__btn" href="https://api.whatsapp.com/send?phone=945504555" target="_blank">
 					<svg> <use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#whatsapp';?> " ></svg>

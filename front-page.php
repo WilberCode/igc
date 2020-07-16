@@ -1,7 +1,6 @@
 <?php get_header();?>
 <div class="banner" id="banner">
-    <?php  
-    // echo do_shortcode('[smartslider3 slider=4]');  
+    <?php   
         echo do_shortcode('[metaslider id="3376"]');
     ?>	    
 </div> 
