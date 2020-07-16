@@ -2,7 +2,7 @@
             <?php
               dynamic_sidebar('bannerfront-image');
         ?>   
-        <h1 class="courses__title "> <span class="new">Nuevo</span> Cursos Presenciales</h1>  
+        <h1 class="courses__title "> <span class="new">Nuevos</span> Cursos Virtuales</h1>  
         <div class="card-container ed-grid  s-grid-1 m-grid-2 lg-grid-2 xl-grid-2  rows-gap  gap-2 "> 
             <?php
                     // args
