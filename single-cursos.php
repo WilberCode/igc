@@ -230,12 +230,12 @@ get_header();?>
 										<svg class=""> <use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#back'; ?>"></svg>
 									</div> 
 						</div>
-						<div class="adviser single-investment__user ed-grid l-grid-4 gap-0 ">
-									<figure class="adviser-avatar l-cols-1">
-										<img src="<?php echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="Asesora">	
-									</figure>
+						<div class="adviser single-investment__user ed-grid l-grid-3 gap-0 ">
+									<!-- <figure class="adviser-avatar l-cols-1">
+										<img src="<?php //echo get_bloginfo('template_directory').'/assets/img/asesora.png'?>" alt="Asesora">	
+									</figure> -->
 									<div class="adviser-content l-cols-2">
-										<p class="adviser-content__name"><strong>Yuni Figuera</strong></p>
+										<p class="adviser-content__name"><strong>Ana Toledo <br>Yesenia Camacho</strong></p>
 										<p class="adviser-content__job">Coordinadora de capacitación</p>
 										<a  class="adviser-content__btn" href="https://web.whatsapp.com/send?phone=+51945504555" target="_blank">
 										<svg> <use href="<?php echo get_bloginfo('template_directory').'/assets/img/icons.svg#whatsapp';?> " ></svg>
