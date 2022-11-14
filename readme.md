@@ -1,2 +1,2 @@
-Página web: Escuela de Gerencia y Gestión
+Página web: IGC
 Enalce: https://igc.edu.pe
