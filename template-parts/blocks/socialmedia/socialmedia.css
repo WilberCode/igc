@@ -1,0 +1,67 @@
+.socialmedia {
+  display: flex;
+}
+.socialmedia > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.socialmedia-icon {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+@media (min-width: 640px) {
+  .socialmedia-icon {
+    height: 60px;
+  }
+  .socialmedia-icon {
+    width: 60px;
+  }
+}
+.socialmedia-icon {
+  box-shadow: 16px 16px 56px rgba(0, 0, 0, 0.1);
+}
+.socialmedia-icon-wrap {
+  --tw-text-opacity: 1;
+  color: rgba(11, 29, 119, var(--tw-text-opacity));
+  text-decoration: none;
+}
+.socialmedia-icon-wrap:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: var(--tw-transform);
+  --tw-shadow: 16px 16px 56px 0px rgba(var(--primary-rgb), 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socialmedia-icon img, .socialmedia-icon svg {
+  display: block;
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: currentColor;
+  --tw-text-opacity: 1;
+  color: rgba(11, 29, 119, var(--tw-text-opacity));
+}
+@media (min-width: 640px) {
+  .socialmedia-icon img, .socialmedia-icon svg {
+    height: 1.7rem;
+  }
+  .socialmedia-icon img, .socialmedia-icon svg {
+    width: 1.7rem;
+  }
+}
+.socialmedia-icon span {
+  font-size: 24px;
+}
